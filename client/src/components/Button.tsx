@@ -51,13 +51,16 @@ export function Button(props: ButtonProps) {
     </>
   );
   if ("to" in props && props.to) {
-    const { to, ...rest } = props;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { to, variant: _v, size: _s, iconLeft: _il, iconRight: _ir, fullWidth: _fw, ...rest } = props as AsLink;
     return <Link to={to} className={cls} {...rest}>{inner}</Link>;
   }
   if ("href" in props && props.href) {
-    const { href, ...rest } = props;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { href, variant: _v, size: _s, iconLeft: _il, iconRight: _ir, fullWidth: _fw, ...rest } = props as AsAnchor;
     return <a href={href} className={cls} {...rest}>{inner}</a>;
   }
-  const { type = "button", ...rest } = props as AsButton;
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { type = "button", variant: _v, size: _s, iconLeft: _il, iconRight: _ir, fullWidth: _fw, ...rest } = props as AsButton;
   return <button type={type} {...rest} className={cls}>{inner}</button>;
 }
