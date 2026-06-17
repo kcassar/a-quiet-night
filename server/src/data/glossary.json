@@ -1,0 +1,42 @@
+[
+  {
+    "term": "AHI",
+    "definition": "Apnea-Hypopnea Index. The average number of breathing events (apnoeas + hypopnoeas) per hour. Many clinicians aim for under 5 on therapy, but targets are individual."
+  },
+  {
+    "term": "OA",
+    "definition": "Obstructive Apnoea. A breathing pause caused by the airway physically collapsing or being blocked."
+  },
+  {
+    "term": "CA",
+    "definition": "Central Apnoea. A breathing pause where the brain briefly fails to send the signal to breathe. Different mechanism to obstructive apnoea."
+  },
+  {
+    "term": "H",
+    "definition": "Hypopnoea. A partial reduction in airflow rather than a full pause. Counted alongside apnoeas in the AHI."
+  },
+  {
+    "term": "RERA",
+    "definition": "Respiratory Effort Related Arousal. A brief awakening triggered by increased effort to breathe, even when airflow doesn't drop enough to count as a hypopnoea."
+  },
+  {
+    "term": "Flow limitation",
+    "definition": "A subtle narrowing of the airway that hasn't yet become a full hypopnoea or apnoea. CPAP/APAP machines often respond to it preventively."
+  },
+  {
+    "term": "Leak rate",
+    "definition": "How much air is escaping around the mask, usually measured in litres per minute. High leak can reduce therapy effectiveness and cause dry mouth."
+  },
+  {
+    "term": "95th percentile pressure",
+    "definition": "The pressure at or below which the machine spent 95% of the night. Useful for understanding what your APAP machine is settling at."
+  },
+  {
+    "term": "Compliance",
+    "definition": "A regulatory term, often defined as using CPAP at least 4 hours a night on at least 70% of nights over 30 days. Your clinic may use a different definition."
+  },
+  {
+    "term": "Humidification",
+    "definition": "Adding moisture to CPAP airflow via a heated water chamber. Helps with dry mouth and nasal symptoms."
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "cpap-europa",
+    "rank": 1,
+    "name": "CPAP Europa",
+    "tagline": "European online CPAP retailer",
+    "url": "https://cpapeuropa.com/",
+    "affiliateUrl": "https://cpapeuropa.com/?ref=aquietnight",
+    "logoUrl": null,
+    "accentColour": "#8EB8C7",
+    "score": { "value": 4.5, "outOf": 5 },
+    "badge": "Editor's pick",
+    "highlight": "Multi-language EU storefront",
+    "terms": [
+      { "label": "Ships to", "value": "EU + UK" },
+      { "label": "Languages", "value": "Multiple" },
+      { "label": "Brands", "value": "ResMed · Philips · F&P" },
+      { "label": "Returns", "value": "Check site" }
+    ],
+    "whyWeLikeThem": [
+      "Carries the mainstream CPAP, APAP and BiPAP brands most clinics in Europe prescribe.",
+      "Multi-language site makes it easier to order if English isn't your first language.",
+      "Useful for people in EU markets where local clinic supply is limited."
+    ],
+    "verifyBeforeLaunch": "Confirm shipping countries, returns window, warranty terms and affiliate parameter before publishing.",
+    "active": true
+  },
+  {
+    "id": "cpap-store-eu",
+    "rank": 2,
+    "name": "CPAP Store EU",
+    "tagline": "EU-based online CPAP store",
+    "url": "https://www.cpapstore.eu/",
+    "affiliateUrl": "https://www.cpapstore.eu/?ref=aquietnight",
+    "logoUrl": null,
+    "accentColour": "#6FAF9A",
+    "score": { "value": 4.0, "outOf": 5 },
+    "badge": "EU specialist",
+    "highlight": "Ships across the EU",
+    "terms": [
+      { "label": "Ships to", "value": "EU" },
+      { "label": "Languages", "value": "EN + others" },
+      { "label": "Brands", "value": "ResMed · Philips · F&P" },
+      { "label": "Returns", "value": "Check site" }
+    ],
+    "whyWeLikeThem": [
+      "EU-domain specialist focused on CPAP equipment.",
+      "Stocks masks, machines, hoses, filters and accessories from major manufacturers.",
+      "Sensible option for people who'd rather buy from within the EU than ship from the US."
+    ],
+    "verifyBeforeLaunch": "Confirm shipping coverage, returns window, warranty, and affiliate parameter before publishing.",
+    "active": true
+  }
+]

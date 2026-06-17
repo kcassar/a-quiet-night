@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "luongnv89/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "28b9c728cddd25a94741ab06ffb5192b1397d1ca8f2eff2b4f2b7e13a77eb8a7"
+    },
+    "seo-ai-optimizer": {
+      "source": "luongnv89/skills",
+      "sourceType": "github",
+      "skillPath": "skills/seo-ai-optimizer/SKILL.md",
+      "computedHash": "adcd118c03e1aef7a1ec7e402475c42a33d31451b1eeacda63c4028109732d17"
+    },
+    "test-coverage": {
+      "source": "luongnv89/skills",
+      "sourceType": "github",
+      "skillPath": "skills/test-coverage/SKILL.md",
+      "computedHash": "ff3b34b612978f3913ad2b9ae331784a983222185837c11079bbb9e2f8e5f05a"
+    }
+  }
+}
