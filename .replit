@@ -7,8 +7,8 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "npm run start"]
-build = ["sh", "-c", "npm run install:all && npm run build"]
-deploymentTarget = "cloudrun"
+build = ["sh", "-c", "NODE_ENV=development npm install --prefix server && NODE_ENV=development npm install --prefix client && npm run build"]
+deploymentTarget = "autoscale"
 
 [[ports]]
 localPort = 3000
