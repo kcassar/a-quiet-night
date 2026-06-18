@@ -1,8 +1,7 @@
 import type { ReactNode } from "react";
-import { ThemeToggle } from "./ThemeToggle";
 
 // Sticky page header at the top of content. Title + optional subtitle on
-// the left; CTA + theme toggle on the right.
+// the left; CTA slot on the right.
 export function PageHeader({
   title, subtitle, actions,
 }: {
@@ -17,10 +16,7 @@ export function PageHeader({
           <h1 className="page-header-title">{title}</h1>
           {subtitle ? <div className="page-header-subtitle">{subtitle}</div> : null}
         </div>
-        <div className="page-header-actions">
-          {actions}
-          <ThemeToggle />
-        </div>
+        {actions ? <div className="page-header-actions">{actions}</div> : null}
       </div>
     </header>
   );
