@@ -2,5 +2,7 @@
 set -e
 
 # Install dependencies for all sub-packages after a task merge.
-npm install --prefix server
-npm install --prefix client
+# NODE_ENV=development ensures devDependencies (tsx, vite, etc.) are included.
+NODE_ENV=development npm install
+NODE_ENV=development npm install --prefix server
+NODE_ENV=development npm install --prefix client
